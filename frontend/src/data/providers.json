@@ -1,0 +1,156 @@
+[
+  {
+    "id": "1",
+    "name": "Bright Minds Learning Center",
+    "specialization": "Dyslexia Support",
+    "location": "Dubai - Jumeirah",
+    "rating": 5,
+    "shortDescription": "Specialized coaching for children with dyslexia.",
+    "longDescription": "Bright Minds offers personalized programs for dyslexic learners using research-backed teaching strategies, one-on-one sessions, and a warm learning environment.",
+    "contactEmail": "info@brightminds.ae",
+    "phoneNumber": "+971 50 123 4567"
+  },
+  {
+    "id": "2",
+    "name": "Focus First Institute",
+    "specialization": "ADHD Coaching",
+    "location": "Abu Dhabi - Al Khalidiyah",
+    "rating": 4,
+    "shortDescription": "Empowering students with ADHD to thrive.",
+    "longDescription": "Focus First uses behavior-based coaching techniques and collaborative strategies with parents and schools to improve attention, routine, and academic performance.",
+    "contactEmail": "support@focusfirst.ae",
+    "phoneNumber": "+971 55 234 5678"
+  },
+  {
+    "id": "3",
+    "name": "The Learning Tree",
+    "specialization": "Autism Spectrum Support",
+    "location": "Sharjah - Al Qasimia",
+    "rating": 4,
+    "shortDescription": "Inclusive therapies for children with ASD.",
+    "longDescription": "Our multidisciplinary team offers speech, occupational, and behavioral therapy, emphasizing a structured and sensory-friendly environment.",
+    "contactEmail": "hello@learningtree.ae",
+    "phoneNumber": "+971 52 876 5432"
+  },
+  {
+    "id": "4",
+    "name": "ReadWell Center",
+    "specialization": "Reading & Writing Intervention",
+    "location": "Dubai - Business Bay",
+    "rating": 3,
+    "shortDescription": "Support for literacy and comprehension difficulties.",
+    "longDescription": "ReadWell’s programs are designed for students facing challenges in phonics, vocabulary, comprehension, and written expression using modern tools and assessments.",
+    "contactEmail": "contact@readwell.ae",
+    "phoneNumber": "+971 56 111 2233"
+  },
+  {
+    "id": "5",
+    "name": "MindGrow Academy",
+    "specialization": "Executive Function Coaching",
+    "location": "Ajman - Al Nuaimia",
+    "rating": 4,
+    "shortDescription": "Building planning, memory, and focus skills.",
+    "longDescription": "MindGrow helps students improve organization, time management, and self-regulation through cognitive-behavioral strategies and tailored action plans.",
+    "contactEmail": "admin@mindgrow.ae",
+    "phoneNumber": "+971 58 999 7788"
+  },
+  {
+    "id": "6",
+    "name": "SkillBridge Support Hub",
+    "specialization": "General Learning Difficulties",
+    "location": "Dubai - Al Barsha",
+    "rating": 5,
+    "shortDescription": "A bridge to better learning outcomes.",
+    "longDescription": "SkillBridge supports children with mild to moderate learning challenges, offering diagnostic evaluations, IEPs, and academic support across subjects.",
+    "contactEmail": "info@skillbridge.ae",
+    "phoneNumber": "+971 54 345 1212"
+  },
+  {
+    "id": "7",
+    "name": "ThinkSpace Clinic",
+    "specialization": "Neurodiversity Coaching",
+    "location": "Ras Al Khaimah - Al Nakheel",
+    "rating": 4,
+    "shortDescription": "For children with diverse learning profiles.",
+    "longDescription": "ThinkSpace embraces neurodivergent learners with individualized support plans, mindfulness coaching, and inclusive educational strategies.",
+    "contactEmail": "team@thinkspace.ae",
+    "phoneNumber": "+971 59 321 4433"
+  },
+  {
+    "id": "8",
+    "name": "Bright Minds Learning Center",
+    "specialization": "Dyslexia Support",
+    "location": "Dubai - Jumeirah",
+    "rating": 5,
+    "shortDescription": "Specialized coaching for children with dyslexia.",
+    "longDescription": "Bright Minds offers personalized programs for dyslexic learners using research-backed teaching strategies, one-on-one sessions, and a warm learning environment.",
+    "contactEmail": "info@brightminds.ae",
+    "phoneNumber": "+971 50 123 4567"
+  },
+  {
+    "id": "9",
+    "name": "Focus First Institute",
+    "specialization": "ADHD Coaching",
+    "location": "Abu Dhabi - Al Khalidiyah",
+    "rating": 4,
+    "shortDescription": "Empowering students with ADHD to thrive.",
+    "longDescription": "Focus First uses behavior-based coaching techniques and collaborative strategies with parents and schools to improve attention, routine, and academic performance.",
+    "contactEmail": "support@focusfirst.ae",
+    "phoneNumber": "+971 55 234 5678"
+  },
+  {
+    "id": "10",
+    "name": "The Learning Tree",
+    "specialization": "Autism Spectrum Support",
+    "location": "Sharjah - Al Qasimia",
+    "rating": 4,
+    "shortDescription": "Inclusive therapies for children with ASD.",
+    "longDescription": "Our multidisciplinary team offers speech, occupational, and behavioral therapy, emphasizing a structured and sensory-friendly environment.",
+    "contactEmail": "hello@learningtree.ae",
+    "phoneNumber": "+971 52 876 5432"
+  },
+  {
+    "id": "11",
+    "name": "ReadWell Center",
+    "specialization": "Reading & Writing Intervention",
+    "location": "Dubai - Business Bay",
+    "rating": 3,
+    "shortDescription": "Support for literacy and comprehension difficulties.",
+    "longDescription": "ReadWell’s programs are designed for students facing challenges in phonics, vocabulary, comprehension, and written expression using modern tools and assessments.",
+    "contactEmail": "contact@readwell.ae",
+    "phoneNumber": "+971 56 111 2233"
+  },
+  {
+    "id": "12",
+    "name": "MindGrow Academy",
+    "specialization": "Executive Function Coaching",
+    "location": "Ajman - Al Nuaimia",
+    "rating": 4,
+    "shortDescription": "Building planning, memory, and focus skills.",
+    "longDescription": "MindGrow helps students improve organization, time management, and self-regulation through cognitive-behavioral strategies and tailored action plans.",
+    "contactEmail": "admin@mindgrow.ae",
+    "phoneNumber": "+971 58 999 7788"
+  },
+  {
+    "id": "13",
+    "name": "SkillBridge Support Hub",
+    "specialization": "General Learning Difficulties",
+    "location": "Dubai - Al Barsha",
+    "rating": 5,
+    "shortDescription": "A bridge to better learning outcomes.",
+    "longDescription": "SkillBridge supports children with mild to moderate learning challenges, offering diagnostic evaluations, IEPs, and academic support across subjects.",
+    "contactEmail": "info@skillbridge.ae",
+    "phoneNumber": "+971 54 345 1212"
+  },
+  {
+    "id": "14",
+    "name": "ThinkSpace Clinic",
+    "specialization": "Neurodiversity Coaching",
+    "location": "Ras Al Khaimah - Al Nakheel",
+    "rating": 4,
+    "shortDescription": "For children with diverse learning profiles.",
+    "longDescription": "ThinkSpace embraces neurodivergent learners with individualized support plans, mindfulness coaching, and inclusive educational strategies.",
+    "contactEmail": "team@thinkspace.ae",
+    "phoneNumber": "+971 59 321 4433"
+  }
+]
