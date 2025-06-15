@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { fetchProviders } from "../services/providerService";
-import SearchSortBar from "../components/SearchBar";  
-import ProviderCard from "./PCard";  
+import SearchSortBar from "../components/SearchBar";
+import ProviderCard from "./PCard";
 import PaginationControls from "./Pagination";
 
 export default function ProviderList() {
@@ -74,10 +74,9 @@ export default function ProviderList() {
   }
 
   return (
-    <div className="p-4 max-w-7xl mx-auto pt-20">
-      <h1 className="text-3xl font-bold mb-6 text-center">Learning Support Providers</h1>
+    <div className="min-h-screen p-4 max-w-7xl mx-auto pt-20">
+      <h1 className="text-3xl font-bold mb-6 text-center text-white">Learning Support Providers</h1>
 
-      {/* Search + Sort Bar */}
       <SearchSortBar
         query={query}
         onQueryChange={handleQueryChange}
@@ -85,7 +84,6 @@ export default function ProviderList() {
         onSortChange={setSortBy}
       />
 
-      {/* Provider cards */}
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
         {paginatedProviders.length > 0 ? (
           paginatedProviders.map(provider => (
@@ -96,17 +94,32 @@ export default function ProviderList() {
             />
           ))
         ) : (
-          <p className="text-center text-gray-500">No providers match your search.</p>
+          <div className="col-span-full text-center mt-8">
+            <p className="text-lg text-gray-500 dark:text-gray-400 mb-2">
+              No providers found. Please try a different search or filter.
+            </p>
+            <button
+              onClick={() => {
+                setQuery("");
+                setSearchParams({});
+                setCurrentPage(1);
+              }}
+              className="inline-flex items-center gap-2 bg-blue-600 text-white py-1.5 px-4 rounded hover:bg-blue-700 transition duration-300"
+            >
+              Reset Search
+            </button>
+          </div>
         )}
       </div>
 
-      {/* Pagination controls */}
       {totalPages > 1 && (
-        <PaginationControls
+        <div className="mt-6 flex justify-center">
+          <PaginationControls
             currentPage={currentPage}
             totalPages={totalPages}
             onPageChange={setCurrentPage}
-        />
+          />
+        </div>
       )}
     </div>
   );
