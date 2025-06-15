@@ -15,7 +15,7 @@ export default function SearchSortBar({ query, onQueryChange, sortBy, onSortChan
         <select
           value={sortBy}
           onChange={(e) => onSortChange(e.target.value)}
-          className="w-full p-3 border rounded shadow-sm bg-white text-gray-900 dark:bg-gray-100 dark:text-black"
+          className="w-full p-3 border rounded shadow-sm bg-gray-100 text-black"
         >
           <option value="">Sort By</option>
           <option value="name">Name (A-Z)</option>

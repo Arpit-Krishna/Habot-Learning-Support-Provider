@@ -95,7 +95,7 @@ export default function ProviderList() {
           ))
         ) : (
           <div className="col-span-full text-center mt-8">
-            <p className="text-lg text-gray-500 dark:text-gray-400 mb-2">
+            <p className="text-lg  text-gray-400 mb-2">
               No providers found. Please try a different search or filter.
             </p>
             <button

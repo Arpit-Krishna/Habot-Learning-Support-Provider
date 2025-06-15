@@ -1,6 +1,6 @@
 export default function PaginationControls({ currentPage, totalPages, onPageChange }) {
   return (
-    <div className="flex justify-center items-center mt-6 space-x-4">
+    <div className="w-full bg-[#0C1B30] flex justify-center items-center space-x-4">
       <button
         onClick={() => onPageChange(Math.max(currentPage - 1, 1))}
         disabled={currentPage === 1}
@@ -13,7 +13,7 @@ export default function PaginationControls({ currentPage, totalPages, onPageChan
         Prev
       </button>
 
-      <span className="text-gray-700 dark:text-gray-300">
+      <span className="text-gray-300">
         Page {currentPage} of {totalPages}
       </span>
 
