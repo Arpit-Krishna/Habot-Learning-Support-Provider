@@ -18,7 +18,12 @@ export default function ProviderCard({ provider, onViewDetails }) {
       </div>
       <button
         onClick={() => onViewDetails(provider.id)}
-        className="mt-auto bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition"
+        className="mt-auto flex items-center justify-center gap-2 
+                   bg-blue-600 text-white 
+                   hover:bg-blue-700 
+                   dark:bg-blue-500 dark:hover:bg-blue-600 
+                   py-2 px-4 rounded-lg 
+                   transition duration-300"
       >
         View Details
       </button>
