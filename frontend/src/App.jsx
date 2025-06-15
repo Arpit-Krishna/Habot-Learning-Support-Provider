@@ -19,7 +19,7 @@ function App() {
           <Route path="/providers" element={<ProviderList />} />
           <Route path="/providers/:id" element={<ProviderDetail />} />
           {/* <Route path="/about" element={<About />} /> */}
-          <Route path="*" element={<NotFound/>} />
+          <Route path="/pnf" element={<NotFound/>} />
         </Routes>
       </Router>
     </div>
