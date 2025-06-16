@@ -1,4 +1,5 @@
 import React from "react";
+// import { useNavigate } from "react-router-dom";
 
 export default function Resources() {
   const resourceData = [
@@ -39,6 +40,8 @@ export default function Resources() {
     }
   ];
 
+//   const navigate = useNavigate();
+
   return (
     <div className="p-6 max-w-7xl mx-auto pt-20">
       <h1 className="text-3xl font-bold mb-8 text-center">Learning Resources & Support</h1>
@@ -68,18 +71,18 @@ export default function Resources() {
             </div>
           </div>
         ))}
-        <p className="text-center text-gray-300 mb-1">
+        {/* <p className="text-center text-gray-300 mb-1">
         Helping parents find the right learning support for their children.
         </p>
 
         <div className="flex justify-center mt-1">
-        <a
-            href="/providers"
-            className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+        <button
+            onClick = {useNavigate("/providers")}
+            className="inline-block text-white font-bold px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 transition"
         >
             Explore Providers
-        </a>
-        </div>
+        </button>
+        </div> */}
       </div>
     </div>
   );
