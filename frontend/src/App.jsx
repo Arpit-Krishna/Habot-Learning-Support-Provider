@@ -8,6 +8,7 @@ import ProviderList from "./components/Providers";
 import ProviderDetail from "./components/ProvidersDetails";
 import NotFound from "./components/NotFound";
 import About from "./components/About";
+import Resources from "./components/Resources";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/providers" element={<ProviderList />} />
           <Route path="/providers/:id" element={<ProviderDetail />} />
           <Route path="/about" element={<About />} />
+          <Route path="/resources" element={<Resources />} />
           <Route path="/pnf" element={<NotFound/>} />
           <Route path="*" element={<NotFound/>} />
         </Routes>
